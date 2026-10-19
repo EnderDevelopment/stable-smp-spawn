@@ -1,0 +1,22 @@
+name: StableSMPSpawn
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin for StableSMP with spawn teleport, spawn protection, and more.
+api-version: "1.21"
+commands:
+  spawn:
+    description: Teleport to spawn
+    usage: /spawn
+  setspawn:
+    description: Set the spawn location
+    usage: /setspawn
+    permission: stablesmp.admin
+  reload:
+    description: Reload the plugin configuration
+    usage: /reload
+    permission: stablesmp.admin
+permissions:
+  stablesmp.admin:
+    description: Allows administration of StableSMPSpawn
+    default: op
